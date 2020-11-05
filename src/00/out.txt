@@ -1,0 +1,12 @@
+CPU: Intel Core i5 4440
+GPU: NVIDIA GTX 1050 Ti
+N_THREADS: 1024
+LOOP_TIMES: 10000000
+OUTPUT:
+
+Running Host function
+Running Device function
+Running Compare function
+Vectors are equal?: true
+CPU: 21.116000 seconds
+GPU: 1.464000 seconds
