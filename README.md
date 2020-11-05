@@ -8,6 +8,9 @@ Learning CUDA programming here =D
 ## Information
 The .cu files are basically .cpp with some CUDA syntax.  
 In CUDA context, Host = CPU and Device = GPU.  
+Variables with a `h` in the name are host's variables. 
+The ones with an `d` are device's variables.  
+The CUDA headers (.h files) are on `CUDA Toolkit installation folder/include`.
 
 
 ## How to run
@@ -18,6 +21,7 @@ In CUDA context, Host = CPU and Device = GPU.
   - [Linux](https://docs.nvidia.com/cuda/cuda-installation-guide-linux/index.html)
 
 ### Steps to run
+- Download the .cu file or `git clone` this repository
 - Compile your `.cu` with `nvcc`
   - `nvcc myfile.cu`
 - Run the generated file
